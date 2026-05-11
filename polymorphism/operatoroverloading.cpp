@@ -31,6 +31,16 @@ class Test{
 
 
     //operator which are 
+//     | Operator  | Meaning                      |
+// | --------- | ---------------------------- |
+// | `::`      | Scope resolution operator    |
+// | `.`       | Member access operator       |
+// | `.*`      | Pointer-to-member operator   |
+// | `?:`      | Ternary/conditional operator |
+// | `sizeof`  | Sizeof operator              |
+// | `typeid`  | RTTI type information        |
+// | `alignof` | Alignment operator           |
+
     Test operator +(const Test &obj){// const for no anyone change the object value not nessecary but good to have
         Test ans;
        ans.a =  a + obj.a;
